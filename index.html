@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OptiPC – Logiciel gratuit d'optimisation pour Windows</title><meta name="description" content="OptiPC, logiciel gratuit pour Windows 10 et 11 : nettoie les fichiers inutiles, accélère le démarrage et vérifie la sécurité. Rien n'est modifié sans votre accord.">
+<link rel="canonical" href="https://opti-pc.com/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>body{margin:0}
+.opti{--bleu:#1d4ed8;--bleu-f:#1e3a8a;--txt:#1f2937;--gris:#6b7280;--fond:#f5f7fb;--bord:#e5e7eb;--vert:#15803d;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--txt);font-size:18px;line-height:1.6;background:#fff}
+.opti *{box-sizing:border-box}
+.opti .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+.opti header.top{border-bottom:1px solid var(--bord);padding:14px 0}
+.opti header.top .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.opti .logo{font-weight:800;font-size:22px;color:var(--bleu-f)}
+.opti .logo span{color:var(--gris);font-weight:500;font-size:15px;margin-left:6px}
+.opti .hero{background:var(--fond);padding:56px 0 48px;text-align:center}
+.opti h1{font-size:clamp(28px,4.4vw,42px);line-height:1.2;margin:0 0 16px;color:var(--bleu-f)}
+.opti h2{font-size:clamp(24px,3.2vw,32px);margin:0 0 20px;color:var(--bleu-f);text-align:center}
+.opti .sous{max-width:720px;margin:0 auto 26px;color:#374151}
+.opti .btn{display:inline-block;background:var(--bleu);color:#fff!important;text-decoration:none;font-weight:700;padding:16px 30px;border-radius:10px;font-size:19px}
+.opti .btn:hover{background:var(--bleu-f)}
+.opti .btn.sec{background:#fff;color:var(--bleu)!important;border:2px solid var(--bleu)}
+.opti .note{font-size:15px;color:var(--gris);margin-top:14px}
+.opti .puces{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 22px;margin-top:20px;font-size:16px}
+.opti .puces span::before{content:"✓ ";color:var(--vert);font-weight:700}
+.opti section{padding:52px 0}
+.opti .grille{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.opti .carte{border:1px solid var(--bord);border-radius:12px;padding:22px;background:#fff}
+.opti .carte h3{margin:0 0 8px;font-size:19px}
+.opti .carte p{margin:0;color:#374151;font-size:16px}
+.opti .etapes{counter-reset:e;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.opti .etapes div{counter-increment:e;background:var(--fond);border-radius:12px;padding:22px}
+.opti .etapes div::before{content:counter(e);display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--bleu);color:#fff;font-weight:700;margin-bottom:8px}
+.opti .alt{background:var(--fond)}
+.opti table{width:100%;border-collapse:collapse;background:#fff;font-size:16px}
+.opti th,.opti td{border:1px solid var(--bord);padding:12px;text-align:left;vertical-align:top}
+.opti th{background:#eef2ff}
+.opti .tab-scroll{overflow-x:auto}
+.opti .prix{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;align-items:stretch}
+.opti .offre{border:1px solid var(--bord);border-radius:14px;padding:24px;background:#fff;text-align:center;display:flex;flex-direction:column}
+.opti .offre.mise{border:2px solid var(--bleu)}
+.opti .offre .montant{font-size:34px;font-weight:800;color:var(--bleu-f);margin:6px 0}
+.opti .offre ul{list-style:none;padding:0;margin:12px 0 20px;text-align:left;font-size:15px;flex:1}
+.opti .offre li{padding:4px 0}
+.opti .offre li::before{content:"✓ ";color:var(--vert)}
+.opti .offre .btn{font-size:16px;padding:12px 18px}
+.opti details{border:1px solid var(--bord);border-radius:10px;padding:14px 18px;margin-bottom:10px;background:#fff}
+.opti summary{font-weight:700;cursor:pointer}
+.opti details p,.opti details ol{margin:10px 0 0;font-size:16px}
+.opti footer.bas{border-top:1px solid var(--bord);padding:28px 0;font-size:14px;color:var(--gris)}
+.opti footer.bas a{color:var(--gris)}
+.opti .legal-liens{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:8px}
+@media (max-width:600px){.opti{font-size:17px}.opti .hero{padding:40px 0}.opti section{padding:40px 0}.opti .btn{display:block}}
+.opti .legal{max-width:820px;margin:0 auto;padding:40px 20px}
+.opti .legal h1{text-align:left;font-size:30px}.opti .legal h2{text-align:left;font-size:21px;margin:28px 0 8px}
+.opti .legal p,.opti .legal li{font-size:17px}</style></head>
+<body><div class="opti">
+
+<header class="top"><div class="wrap">
+  <a href="/" class="logo" style="text-decoration:none">OptiPC <span>par SecureeTech</span></a>
+  <a class="btn sec" href="#telecharger" style="font-size:15px;padding:9px 16px">Télécharger</a>
+</div></header>
+
+<!-- ============ HERO ============ -->
+<div class="hero"><div class="wrap">
+  <h1>OptiPC : logiciel gratuit d'optimisation pour Windows</h1>
+  <p class="sous">OptiPC est un logiciel à télécharger et à installer sur votre ordinateur Windows. Il analyse votre PC (fichiers inutiles, programmes au démarrage, mémoire, réglages de confidentialité) puis vous montre ce qu'il a trouvé. <strong>Rien n'est modifié sans votre accord.</strong></p>
+  <a class="btn" id="telecharger" href="/telechargement/OptiPC-Setup-1.0.0.exe" download>Télécharger OptiPC gratuitement</a>
+  <p class="note">Logiciel pour Windows 10 et 11 · Installateur « OptiPC-Setup-1.0.0.exe » · Version 1.0 · Éditeur : H2OCONSULTING - FZCO<br>
+  En téléchargeant, vous acceptez le <a href="/licence.html">contrat de licence (CLUF)</a>.</p>
+  <div class="puces"><span>Version gratuite sans limite de durée</span><span>Aucune carte bancaire demandée</span><span>Sans logiciel ajouté ni barre d'outils</span><span>Désinstallation en 1 minute</span></div>
+</div></div>
+
+<!-- ============ CE QUE FAIT OPTIPC ============ -->
+<section><div class="wrap">
+  <h2>Ce que fait OptiPC</h2>
+  <div class="grille">
+    <div class="carte"><h3>🧹 Nettoyage des fichiers inutiles</h3><p>Supprime les fichiers temporaires, caches et anciens fichiers de mise à jour pour libérer de l'espace disque.</p></div>
+    <div class="carte"><h3>🚀 Démarrage plus rapide</h3><p>Liste les programmes lancés au démarrage de Windows et vous laisse désactiver ceux dont vous n'avez pas besoin.</p></div>
+    <div class="carte"><h3>🧠 Mémoire et performances</h3><p>Libère la mémoire, ajuste le mode d'alimentation et les effets visuels de Windows.</p></div>
+    <div class="carte"><h3>🗑️ Désinstallation de logiciels</h3><p>Affiche les programmes installés et vous aide à retirer ceux que vous n'utilisez plus.</p></div>
+    <div class="carte"><h3>🛡️ Vérification de la sécurité</h3><p>Vérifie que votre antivirus, le pare-feu et Windows Defender sont actifs, et signale les programmes suspects. OptiPC ne remplace pas votre antivirus.</p></div>
+    <div class="carte"><h3>🔒 Vie privée</h3><p>Montre quelles applications ont accès à la caméra et au micro, et permet de réduire la télémétrie de Windows.</p></div>
+  </div>
+</div></section>
+
+<!-- ============ COMMENT ÇA MARCHE ============ -->
+<section class="alt"><div class="wrap">
+  <h2>Comment ça marche</h2>
+  <div class="etapes">
+    <div><strong>Téléchargez et installez</strong><br>Ouvrez le fichier téléchargé et suivez l'installateur. Windows demande votre autorisation (droits administrateur), car OptiPC agit sur les réglages du système.</div>
+    <div><strong>Lancez l'analyse</strong><br>OptiPC examine votre ordinateur en quelques minutes et affiche un résumé clair.</div>
+    <div><strong>Choisissez ce que vous nettoyez</strong><br>Vous cochez ce que vous voulez corriger. Aucune action n'est faite sans votre validation.</div>
+  </div>
+</div></section>
+
+<!-- ============ TRANSPARENCE : CE QUI EST INSTALLÉ / MODIFIÉ ============ -->
+<section><div class="wrap">
+  <h2>Ce qu'OptiPC installe et modifie sur votre PC</h2>
+  <div class="tab-scroll"><table>
+    <tr><th>Élément</th><th>Détail</th></tr>
+    <tr><td>Installation</td><td>Le programme est installé dans <em>C:\Program Files\OptiPC</em>, avec un raccourci sur le Bureau et dans le menu Démarrer.</td></tr>
+    <tr><td>Démarrage de Windows</td><td>OptiPC s'ajoute au démarrage de Windows et affiche une icône près de l'horloge. Désactivable dans les Paramètres d'OptiPC.</td></tr>
+    <tr><td>Vérification hebdomadaire</td><td>Une tâche planifiée « OptiPC » lance une vérification de sécurité chaque semaine, sans rien corriger automatiquement. Désactivable dans les Paramètres.</td></tr>
+    <tr><td>Actions de nettoyage</td><td>Suppression de fichiers temporaires, désactivation de programmes au démarrage, réglages d'alimentation, d'effets visuels, de confidentialité et, en version Pro, du registre. <strong>Chaque action est proposée et doit être validée par vous.</strong></td></tr>
+    <tr><td>Connexion Internet</td><td>Utilisée uniquement pour vérifier les mises à jour d'OptiPC et, en version Pro, pour activer la licence. Aucun fichier personnel n'est envoyé. Voir la <a href="/confidentialite.html">politique de confidentialité</a>.</td></tr>
+    <tr><td>Ce qui n'est PAS installé</td><td>Aucun autre logiciel, aucune barre d'outils, aucune modification de votre navigateur ou de votre page d'accueil.</td></tr>
+  </table></div>
+</div></section>
+
+<!-- ============ GRATUIT VS PRO ============ -->
+<section class="alt"><div class="wrap">
+  <h2>Version gratuite et version Pro</h2>
+  <div class="tab-scroll"><table>
+    <tr><th>Fonction</th><th>Gratuit</th><th>Pro</th></tr>
+    <tr><td>Analyse complète du PC</td><td>✓</td><td>✓</td></tr>
+    <tr><td>Nettoyage des fichiers inutiles et caches</td><td>✓</td><td>✓</td></tr>
+    <tr><td>Optimisation du démarrage et de la mémoire</td><td>✓</td><td>✓</td></tr>
+    <tr><td>Désinstallation de logiciels</td><td>✓</td><td>✓</td></tr>
+    <tr><td>Vérification de la sécurité (antivirus, pare-feu)</td><td>✓</td><td>✓</td></tr>
+    <tr><td>Mise en quarantaine réversible des programmes suspects</td><td>–</td><td>✓</td></tr>
+    <tr><td>Nettoyage avancé et nettoyage du registre</td><td>–</td><td>✓</td></tr>
+    <tr><td>Nettoyage automatique programmé</td><td>–</td><td>✓</td></tr>
+    <tr><td>Aide à l'utilisation d'OptiPC par e-mail et téléphone</td><td>–</td><td>✓</td></tr>
+  </table></div>
+</div></section>
+
+<!-- ============ TARIFS ============ -->
+<section id="tarifs"><div class="wrap">
+  <h2>Tarifs d'OptiPC Pro</h2>
+  <div class="prix">
+    <div class="offre"><strong>Gratuit</strong><div class="montant">0 €</div><div>sans limite de durée</div>
+      <ul><li>Analyse et nettoyage de base</li><li>Aucune carte bancaire</li></ul>
+      <a class="btn sec" href="/telechargement/OptiPC-Setup-1.0.0.exe" download>Télécharger</a></div>
+    <div class="offre"><strong>Pro mensuel</strong><div class="montant">6,90 €</div><div>TTC par mois</div>
+      <ul><li>Toutes les fonctions Pro</li><li>Résiliable à tout moment</li></ul>
+      <a class="btn" href="https://buy.stripe.com/5kQ6oI6LLeKIgLOge07AL2t">Choisir le mensuel</a></div>
+    <div class="offre mise"><strong>Pro annuel</strong><div class="montant">49,90 €</div><div>TTC par an (soit 4,16 €/mois)</div>
+      <ul><li>Toutes les fonctions Pro</li><li>Résiliable à tout moment</li></ul>
+      <a class="btn" href="https://buy.stripe.com/bJeeVe3zzfOM0MQ5zm7AL2u">Choisir l'annuel</a></div>
+    <div class="offre"><strong>Pro 2 ans</strong><div class="montant">89,90 €</div><div>TTC pour 2 ans (soit 3,75 €/mois)</div>
+      <ul><li>Toutes les fonctions Pro</li><li>Résiliable à tout moment</li></ul>
+      <a class="btn" href="https://buy.stripe.com/cNieVe8TT5a8bru4vi7AL2v">Choisir 2 ans</a></div>
+  </div>
+  <p class="note" style="text-align:center">Abonnements à renouvellement automatique, résiliables à tout moment depuis votre e-mail de confirmation ou en écrivant à contact@secureetech.com. 1 abonnement = 1 ordinateur. Voir les <a href="/conditions-de-vente.html">conditions de vente d'OptiPC</a>.</p>
+</div></section>
+
+<!-- ============ FAQ ============ -->
+<section class="alt"><div class="wrap" style="max-width:820px">
+  <h2>Questions fréquentes</h2>
+  <details><summary>OptiPC est-il vraiment gratuit ?</summary><p>Oui. La version gratuite fonctionne sans limite de durée et sans carte bancaire. La version Pro, payante, ajoute des fonctions avancées (voir le tableau ci-dessus).</p></details>
+  <details><summary>Qui édite OptiPC ?</summary><p>OptiPC est édité et vendu par H2OCONSULTING - FZCO (Dubaï, Émirats arabes unis), sous la marque SecureeTech. Le site opti-pc.com est la seule source officielle de téléchargement d'OptiPC.</p></details>
+  <details><summary>Comment désinstaller OptiPC ?</summary><ol><li>Ouvrez le menu Démarrer puis <strong>Paramètres</strong>.</li><li>Cliquez sur <strong>Applications</strong> puis <strong>Applications installées</strong>.</li><li>Cherchez <strong>OptiPC</strong>, cliquez sur « … » puis <strong>Désinstaller</strong>.</li></ol><p>La désinstallation retire le programme, son lancement au démarrage et sa tâche planifiée.</p></details>
+  <details><summary>OptiPC remplace-t-il mon antivirus ?</summary><p>Non. OptiPC vérifie que votre protection est active et signale les programmes suspects, mais il ne remplace pas un antivirus.</p></details>
+  <details><summary>OptiPC modifie-t-il mon ordinateur sans me le demander ?</summary><p>Non. L'analyse ne change rien. Chaque nettoyage ou réglage vous est proposé et n'est appliqué qu'après votre validation.</p></details>
+  <details><summary>Sur quels ordinateurs fonctionne OptiPC ?</summary><p>Sur les PC équipés de Windows 10 ou Windows 11. OptiPC ne fonctionne pas sur Mac.</p></details>
+</div></section>
+
+<!-- ============ PIED DE PAGE ============ -->
+<footer class="bas"><div class="wrap">
+  <div><strong>OptiPC</strong> est un logiciel édité par <strong>H2OCONSULTING - FZCO</strong>, Dubaï, Émirats arabes unis, sous la marque SecureeTech. Contact : <a href="mailto:contact@secureetech.com">contact@secureetech.com</a></div>
+  <div class="legal-liens">
+    <a href="/licence.html">Contrat de licence (CLUF)</a>
+    <a href="/conditions-de-vente.html">Conditions de vente OptiPC</a>
+    <a href="/confidentialite.html">Confidentialité OptiPC</a>
+    <a href="/mentions-legales.html">Mentions légales</a>
+  </div>
+  <div style="margin-top:8px">OptiPC™ est une marque d'ELITE-ASSISTANCE SL (demande INPI n° 5301222), utilisée sous licence par H2OCONSULTING - FZCO. © 2026 H2OCONSULTING - FZCO. Windows est une marque de Microsoft Corporation ; OptiPC n'est ni affilié ni approuvé par Microsoft.</div>
+</div></footer>
+</div></body></html>
